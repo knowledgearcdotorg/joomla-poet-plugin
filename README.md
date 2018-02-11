@@ -6,7 +6,7 @@ Please Note: Articles are only published to the Po.et testnet at this time.
 
 ## Installation
 
-Download the Joomla! Content Plugin for Po.et plugin from https://github.com/knowledgearcdotorg/joomla-content-plugin/releases.
+Download the Joomla! Content Plugin for Po.et plugin from https://github.com/knowledgearcdotorg/joomla-poet-plugin/releases.
 
 Use the Joomla! installer to install.
 
