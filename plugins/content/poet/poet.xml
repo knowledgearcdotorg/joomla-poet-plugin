@@ -11,6 +11,8 @@
     <description>PLG_CONTENT_POET_XML_DESCRIPTION</description>
     <files>
         <filename plugin="poet">poet.php</filename>
+        <folder>forms</folder>
+        <folder>tmpl</folder>
         <filename>COPYING</filename>
     </files>
     <languages>
@@ -18,7 +20,7 @@
         <language tag="en-GB">language/en-GB/en-GB.plg_content_poet.sys.ini</language>
     </languages>
     <media folder="media">
-        <folder>content/poet</folder>
+        <folder>plg_content_poet</folder>
     </media>
     <config>
         <fields name="params">
