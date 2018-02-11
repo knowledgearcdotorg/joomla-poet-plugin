@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.8" type="plugin" group="content" method="upgrade">
+    <name>plg_content_poet</name>
+    <author>KnowledgeArc Ltd</author>
+    <creationDate>2018-02-09</creationDate>
+    <authorEmail>development@knowledgearc.com</authorEmail>
+    <authorUrl>http://www.knowledgearc.org</authorUrl>
+    <copyright>>Copyright (C) 2018 KnowledgeArc Ltd. All rights reserved.</copyright>
+    <license>http://www.gnu.org/licenses/gpl-3.0.html</license>
+    <version>1.0.0-dev</version>
+    <description>PLG_CONTENT_POET_XML_DESCRIPTION</description>
+    <files>
+        <filename plugin="poet">poet.php</filename>
+        <filename>COPYING</filename>
+    </files>
+    <languages>
+        <language tag="en-GB">language/en-GB/en-GB.plg_content_poet.ini</language>
+        <language tag="en-GB">language/en-GB/en-GB.plg_content_poet.sys.ini</language>
+    </languages>
+    <media folder="media">
+        <folder>content/poet</folder>
+    </media>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field
+                    name="frost_api_url"
+                    type="text"
+                    label="PLG_CONTENT_POET_FIELD_FROST_API_URL_LABEL"
+                    description="PLG_CONTENT_POET_FIELD_FROST_API_URL_DESC"
+                    default=""
+                    size="45"/>
+
+                <field
+                    name="frost_api_token"
+                    type="text"
+                    label="PLG_CONTENT_POET_FIELD_FROST_API_TOKEN_LABEL"
+                    description="PLG_CONTENT_POET_FIELD_FROST_API_TOKEN_DESC"
+                    size="45"/>
+
+                <field
+                    name="author"
+                    type="list"
+                    default="0"
+                    label="PLG_CONTENT_POET_FIELD_AUTHOR_LABEL"
+                    description="PLG_CONTENT_POET_FIELD_AUTHOR_DESC"
+                    class="btn-group">
+                    <option value="created_by">PLG_CONTENT_POET_FIELD_AUTHOR_USE_ARTICLE_CREATED_BY</option>
+                    <option value="site_name">PLG_CONTENT_POET_FIELD_AUTHOR_USE_SITE_NAME</option>
+                    <option value="global">PLG_CONTENT_POET_FIELD_AUTHOR_USE_GLOBAL</option>
+                </field>
+                <field
+                    name="global"
+                    type="text"
+                    label="PLG_CONTENT_POET_FIELD_GLOBAL_LABEL"
+                    description="PLG_CONTENT_POET_FIELD_GLOBAL_LABEL"
+                    class="inputbox"
+                    showon="author:global">
+                </field>
+            </fieldset>
+        </fields>
+    </config>
+</extension>

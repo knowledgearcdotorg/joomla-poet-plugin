@@ -1,0 +1,6 @@
+id=plg_content_poet
+src=.
+path.joomla=/var/www/html/
+package.extensions=
+package.version=1.0.0-alpha
+package.date=2018-02-11

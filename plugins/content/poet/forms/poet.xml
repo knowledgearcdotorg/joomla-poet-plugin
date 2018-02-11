@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fields name="metadata" label="JGLOBAL_FIELDSET_METADATA_OPTIONS">
+        <fieldset
+                name="jmetadata"
+                label="JGLOBAL_FIELDSET_METADATA_OPTIONS">
+            <field
+                name="poetWorkId"
+                type="text"
+                label="COM_CONTENT_POET_METADATA_POET_WORK_ID_LABEL"
+                description="COM_CONTENT_POET_METADATA_POET_WORK_ID_DESC"
+                readonly="true"/>
+        </fieldset>
+    </fields>
+</form>
