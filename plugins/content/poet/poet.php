@@ -107,7 +107,11 @@ class PlgContentPoet extends JPlugin
         // Get the path for the voting form layout file
         $path = JPluginHelper::getLayoutPath('content', 'poet', 'poet');
 
-        $metadata = new JRegistry($item->metadata);
+        $metadata = $item->metadata;
+
+        if (!is_a($metadata, "\Joomla\Registry\Registry")) {
+            $metadata = new Registry($item->metadata);
+        }
 
         $workId = $metadata->get('poetWorkId');
 
