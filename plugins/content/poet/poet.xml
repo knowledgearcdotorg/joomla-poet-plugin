@@ -2,12 +2,12 @@
 <extension version="3.8" type="plugin" group="content" method="upgrade">
     <name>plg_content_poet</name>
     <author>KnowledgeArc Ltd</author>
-    <creationDate>2018-02-09</creationDate>
+    <creationDate>2018-02-11</creationDate>
     <authorEmail>development@knowledgearc.com</authorEmail>
     <authorUrl>http://www.knowledgearc.org</authorUrl>
     <copyright>>Copyright (C) 2018 KnowledgeArc Ltd. All rights reserved.</copyright>
     <license>http://www.gnu.org/licenses/gpl-3.0.html</license>
-    <version>1.0.0-dev</version>
+    <version>1.0.0-alpha</version>
     <description>PLG_CONTENT_POET_XML_DESCRIPTION</description>
     <files>
         <filename plugin="poet">poet.php</filename>
